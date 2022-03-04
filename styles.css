@@ -5,10 +5,6 @@ body {
     margin: 0;
     background: #aaa;
     color: #333;
-    /* I'll give you this one for free lol */
-    /* display: flex;
-    align-items: center;
-    justify-content: center; */
   }
 
 p {
@@ -17,7 +13,6 @@ p {
 }
 
 ul {
-    /* this removes the dots on the list items*/
     list-style-type: none;
     align-items: stretch;
     justify-content: space-between;
@@ -28,23 +23,38 @@ ul {
   }
   
   a {
-    font-size: 22px;
-    background: white;
-    padding: 8px;
-    /* this removes the line under the links */
     text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
   }
 
 .hero{
-    height: 152px;
+    height: 238px;
     color: #f9faf8;
     background-color: #1f2937;
+    padding: 0 200px;
+}
 
+.logo h1{
+    font-size: 24px;
+    color: #f9faf8;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
+    /* padding: 10px; */
+}
+
+.content {
+    display: flex;
+
+}
+
+.image {
+    background-color: darkgrey;
+    width: 520px;
+    height: 230px;
 }
 
 .items{
@@ -69,3 +79,14 @@ ul {
     height: 50px;
     background-color: #1f2937
 }
+
+button {
+    padding: 8px 16px;
+    border-radius: 8px;
+  }
+  
+  button.continue {
+    background: royalblue;
+    border: 1px solid royalblue;
+    color: white;
+  }
