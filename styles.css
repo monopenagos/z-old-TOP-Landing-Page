@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    background: #aaa;
+    color: #333;
+    /* I'll give you this one for free lol */
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+  }
+
+p {
+    margin: 0px;
+    padding: 0px;
+}
+
+ul {
+    /* this removes the dots on the list items*/
+    list-style-type: none;
+    align-items: stretch;
+    justify-content: space-between;
+    display: flex;
+    /* margin: 0 -10px; */
+    padding: 0px;
+    column-gap: 20px;
+  }
+  
+  a {
+    font-size: 22px;
+    background: white;
+    padding: 8px;
+    /* this removes the line under the links */
+    text-decoration: none;
+  }
+
+.hero{
+    height: 152px;
+    color: #f9faf8;
+    background-color: #1f2937;
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.items{
+    height: 50px;
+    color: #1f2937;
+    background-color: #ffffff;
+}
+
+.quote {
+    height: 50px;
+    color: #1f2937;
+    background-color: #e5e7eb;
+}
+
+.call-to-action {
+    height: 50px;
+    color: #1f2937;
+    background-color: #ffffff;
+}
+
+.footer {
+    height: 50px;
+    background-color: #1f2937
+}
